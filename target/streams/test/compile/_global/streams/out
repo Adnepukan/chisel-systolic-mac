@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/adnepukan/parallel.les/homework2/systolic/src/test/scala/pecross-tester.scala:28:33: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.util.DecoupledIO[VecFixed][0m
+[0m[[0m[31merror[0m] [0m[0m            dut.io.weiIn.poke(0.B)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

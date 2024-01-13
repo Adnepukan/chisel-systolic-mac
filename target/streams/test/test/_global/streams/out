@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MultiplyTester, org.scalatest.tools.Framework$$anon$1@60ed2c3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PETester, org.scalatest.tools.Framework$$anon$1@60ed2c3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PECrossTester, org.scalatest.tools.Framework$$anon$1@60ed2c3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PENlrTester, org.scalatest.tools.Framework$$anon$1@60ed2c3, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMultiplyTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMultiply[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPENlrTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPENlr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPETester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPE[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPECrossTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPECross[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 8 seconds, 169 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MultiplyTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PECrossTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PENlrTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PETester[0m

@@ -1,0 +1,553 @@
+$date
+2024-01-13T12:26+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module PENlr $end
+ $var wire 1 % multiply_io_input_io_sumIn_valid $end
+ $var wire 1 * multiply_io_input_io_sumOut_bits_last $end
+ $var wire 1 5 adderInHsk $end
+ $var wire 1 7 multiply_io_input_io_sumOut_ready $end
+ $var wire 1 @ multiply $end
+ $var wire 8 E multiply_io_input_io_actWeiIn_bits_x_0 $end
+ $var wire 1 L multiply_io_input_io_actWeiIn_bits_last $end
+ $var wire 16 P multiply_io_input_io_sumIn_bits_x_0 $end
+ $var wire 1 Q multiply_io_input_io_sumIn_ready $end
+ $var wire 1 R clock $end
+ $var wire 1 W multiply_io_input_io_actWeiIn_valid $end
+ $var wire 1 i adder $end
+ $var wire 1 k reset $end
+ $var wire 1 l multiply_io_input_io_sumOut_valid $end
+ $var wire 1 q multiply_io_input_io_actWeiIn_ready $end
+ $var wire 1 r multiply_io_input_io_sumIn_bits_last $end
+ $var wire 8 s multiply_io_input_io_actWeiIn_bits_x_1 $end
+ $var wire 16 y multiply_io_input_io_sumOut_bits_x_0 $end
+  $scope module adder.hsk $end
+  $upscope $end
+  $scope module adderInHsk $end
+   $var wire 1 3 io_input_1_ready $end
+   $var wire 1 ? io_input_0_ready $end
+   $var wire 16 D io_input_1_bits_x_0 $end
+   $var wire 1 J io_input_1_bits_last $end
+   $var wire 16 M io_input_0_bits_x_0 $end
+   $var wire 1 X io_output_valid $end
+   $var wire 16 Z io_output_bits_0_x_0 $end
+   $var wire 1 ] io_input_1_valid $end
+   $var wire 16 b io_output_bits_1_x_0 $end
+   $var wire 1 g io_input_0_valid $end
+   $var wire 1 t io_output_ready $end
+   $var wire 1 x io_output_bits_1_last $end
+  $upscope $end
+  $scope module multiply.counterHsk $end
+  $upscope $end
+  $scope module adder $end
+   $var wire 16 " io_output_bits_x_0 $end
+   $var wire 1 4 clock $end
+   $var wire 1 ; io_input_valid $end
+   $var wire 1 C io_output_valid $end
+   $var wire 16 F io_input_bits_x_1 $end
+   $var wire 16 H r_0 $end
+   $var wire 1 K reset $end
+   $var wire 1 S io_input_ready $end
+   $var wire 16 U sum_0 $end
+   $var wire 1 \ io_output_ready $end
+   $var wire 1 _ hsk $end
+   $var wire 1 ` io_output_bits_last $end
+   $var wire 16 a io_input_bits_x_0 $end
+   $var wire 1 j io_input_bits_last $end
+    $scope module hsk $end
+     $var wire 1 ! io_regen_0 $end
+     $var wire 1 ' io_lastPre $end
+     $var wire 1 + last_1_r $end
+     $var wire 1 - ready_1 $end
+     $var wire 1 / clock $end
+     $var wire 1 2 last_1 $end
+     $var wire 1 : valid_1_r $end
+     $var wire 1 = io_readyNxt $end
+     $var wire 1 > ready_0 $end
+     $var wire 1 B last_0 $end
+     $var wire 1 O io_lastNxt $end
+     $var wire 1 T valid_1 $end
+     $var wire 1 V io_validNxt $end
+     $var wire 1 Y reset $end
+     $var wire 1 e io_readyPre $end
+     $var wire 1 p valid_0 $end
+     $var wire 1 v io_validPre $end
+    $upscope $end
+  $upscope $end
+  $scope module multiply $end
+   $var wire 3 # out0IncMux $end
+   $var wire 8 $ in0 $end
+   $var wire 8 ) io_input_bits_x_1 $end
+   $var wire 16 , out0 $end
+   $var wire 1 . io_input_ready $end
+   $var wire 16 0 out0Inc $end
+   $var wire 16 1 out0Nxt $end
+   $var wire 1 8 clock $end
+   $var wire 8 < io_input_bits_x_0 $end
+   $var wire 1 G io_output_valid $end
+   $var wire 8 I in1Inc $end
+   $var wire 1 ^ reset $end
+   $var wire 16 d io_output_bits_x_0 $end
+   $var wire 8 f in1 $end
+   $var wire 1 h io_input_valid $end
+   $var wire 1 m io_output_ready $end
+   $var wire 8 n in0Nxt $end
+   $var wire 1 u counterHsk $end
+    $scope module counterHsk $end
+     $var wire 3 & counterNxt $end
+     $var wire 1 ( io_readyNxt $end
+     $var wire 1 6 io_validNxt $end
+     $var wire 1 9 reset $end
+     $var wire 1 A counterEn $end
+     $var wire 1 N io_regen $end
+     $var wire 1 [ io_readyPre $end
+     $var wire 1 c io_validPre $end
+     $var wire 3 o counter $end
+     $var wire 1 w clock $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0X
+0C
+b0000000000000000 H
+0;
+b00000000 E
+0R
+0=
+0q
+b0000000000000000 a
+0i
+0T
+b0000000000000000 D
+b00000000 s
+07
+b00000000 I
+b000 &
+0k
+0V
+0N
+09
+0m
+0e
+b0000000000000000 U
+03
+0g
+0J
+05
+0-
+0L
+0/
+b00000000 $
+0c
+0x
+b000 o
+0[
+b0000000000000000 b
+b0000000000000000 M
+0]
+0r
+b0000000000000000 0
+0+
+0@
+b0000000000000000 y
+b0000000000000000 d
+0t
+0_
+0W
+0B
+0%
+0v
+0Y
+b0000000000000000 ,
+0'
+0p
+0S
+0>
+06
+0!
+0j
+b0000000000000000 Z
+08
+0l
+0O
+0:
+02
+b0000000000000000 "
+b00000000 <
+0Q
+04
+b00000000 )
+0h
+b000 #
+0`
+0K
+b0000000000000000 P
+0.
+0w
+0(
+0\
+0G
+b00000000 n
+0?
+b00000000 f
+0*
+0^
+b0000000000000000 F
+0A
+b0000000000000000 1
+0u
+$end
+#0
+13
+1Q
+1.
+b001 &
+1Y
+1S
+1K
+1(
+1[
+1>
+1q
+1?
+1k
+1e
+19
+1^
+1m
+1t
+#1
+14
+1R
+18
+1w
+1/
+#6
+04
+0R
+08
+0k
+0Y
+0w
+0K
+09
+0^
+0/
+#11
+14
+1R
+18
+1w
+1/
+#16
+04
+0R
+08
+0w
+0/
+#21
+14
+1R
+18
+1w
+1/
+#26
+04
+0R
+08
+0w
+0/
+#31
+14
+1R
+18
+1w
+1/
+#36
+04
+0R
+08
+0w
+0/
+#41
+14
+1R
+18
+1w
+1/
+#46
+04
+0R
+08
+0w
+0/
+#51
+14
+1R
+18
+1w
+1/
+#56
+04
+0R
+08
+0w
+0/
+#61
+14
+1R
+18
+1w
+1/
+#66
+04
+0R
+08
+0w
+0/
+#71
+14
+1R
+18
+1w
+1/
+#76
+04
+0R
+08
+0w
+0/
+#81
+14
+1R
+18
+1w
+1/
+#86
+04
+0R
+08
+0w
+0/
+#91
+14
+1R
+18
+1w
+1/
+#96
+04
+0R
+08
+0w
+0/
+#101
+14
+1R
+18
+1w
+1/
+#106
+03
+0Q
+b10110000 <
+04
+0R
+1J
+1h
+1L
+17
+1j
+0/
+b0000110100000000 b
+b1111111110100000 0
+1c
+1N
+b0000110100000000 F
+b1111111110100000 1
+1]
+b01100000 I
+1A
+1B
+1-
+1%
+b0000110100000000 D
+0w
+1'
+b10110000 E
+1x
+1=
+b01100000 )
+1\
+1r
+b0000110100000000 U
+b01100000 s
+08
+b101 #
+1W
+b0000110100000000 P
+b11000000 n
+#111
+b01100000 f
+14
+1R
+0.
+b010 &
+1w
+b001 o
+b1111111110100000 Z
+b1111111110100000 a
+0[
+1/
+b1111111110100000 M
+0q
+b0000110010100000 U
+b1111111110100000 d
+b1111111000100000 1
+18
+b110 #
+b11000000 $
+b1111111110100000 ,
+b00000000 n
+#116
+0c
+04
+0R
+08
+0h
+0w
+0W
+0/
+#121
+14
+1R
+b011 &
+1w
+b010 o
+b1111111000100000 Z
+b1111111000100000 a
+1/
+b1111111000100000 M
+b0000000000000000 0
+b0000101100100000 U
+b1111111000100000 d
+b1111100010000000 1
+18
+b000 #
+b00000000 $
+b1111111000100000 ,
+#126
+04
+0R
+08
+0w
+0/
+#131
+14
+1R
+b100 &
+1w
+b011 o
+b1111100010000000 Z
+b1111100010000000 a
+1/
+b1111100010000000 M
+b0000010110000000 U
+b1111100010000000 d
+b1110001000000000 1
+18
+b1111100010000000 ,
+#136
+04
+0R
+08
+0w
+0/
+#141
+13
+1Q
+14
+1g
+1R
+16
+b1110001000000000 a
+1/
+b1110001000000000 M
+0N
+b1000100000000000 1
+b1110001000000000 d
+1G
+b1110001000000000 ,
+1X
+1v
+1.
+b000 &
+1w
+b100 o
+b1110001000000000 Z
+1p
+1[
+1q
+1!
+b1110111100000000 U
+18
+1;
+#146
+04
+0R
+08
+0w
+0/
+#151
+03
+0Q
+14
+0g
+1R
+06
+1/
+b1110111100000000 y
+0G
+12
+1*
+b1110111100000000 H
+1+
+0A
+1`
+0X
+1C
+0v
+b001 &
+1w
+b000 o
+0p
+0!
+1T
+b1110111100000000 "
+18
+1V
+1l
+1O
+1:
+0;
+#156
+0r
+0%
+04
+0R
+b00000000 s
+08
+0w
+b00000000 E
+0L
+07
+0/
+b0000000000000000 P

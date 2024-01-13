@@ -1,0 +1,429 @@
+$date
+2023-12-27T12:54+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module PENlrRaw $end
+ $var wire 1 - adderInHsk $end
+ $var wire 8 . io_actWeiIn_bits_x_1 $end
+ $var wire 1 / io_actWeiIn_valid $end
+ $var wire 1 2 io_stall $end
+ $var wire 16 4 io_actOut_bits_x_0 $end
+ $var wire 1 7 multiply $end
+ $var wire 1 A rst $end
+ $var wire 1 C io_sum_valid $end
+ $var wire 1 F io_actOut_bits_last $end
+ $var wire 1 L clock $end
+ $var wire 1 N io_actOut_valid $end
+ $var wire 8 Q io_actWeiIn_bits_x_0 $end
+ $var wire 1 V adderInEn $end
+ $var wire 1 Z io_actWeiIn_ready $end
+ $var wire 1 [ io_actWeiIn_bits_last $end
+ $var wire 1 \ io_sum_bits_last $end
+ $var wire 1 ] io_sum_ready $end
+ $var wire 1 e adder $end
+ $var wire 1 g io_actOut_ready $end
+ $var wire 1 h reset $end
+ $var wire 16 j io_sum_bits_x_0 $end
+  $scope module adderInEn $end
+   $var wire 1 & io_output_bits_0_last $end
+   $var wire 16 1 io_input_bits_0_x_0 $end
+   $var wire 16 5 io_output_bits_0_x_0 $end
+   $var wire 1 > io_input_valid $end
+   $var wire 16 ? io_output_bits_1_x_0 $end
+   $var wire 1 @ io_output_valid $end
+   $var wire 16 G io_input_bits_1_x_0 $end
+   $var wire 1 K io_input_bits_0_last $end
+   $var wire 1 O io_en $end
+  $upscope $end
+  $scope module adderInHsk $end
+   $var wire 1 6 io_input_0_bits_last $end
+   $var wire 16 9 io_input_1_bits_x_0 $end
+   $var wire 16 H io_input_0_bits_x_0 $end
+   $var wire 1 R io_output_valid $end
+   $var wire 16 T io_output_bits_0_x_0 $end
+   $var wire 1 W io_input_1_valid $end
+   $var wire 1 ` io_output_bits_0_last $end
+   $var wire 16 a io_output_bits_1_x_0 $end
+   $var wire 1 d io_input_0_valid $end
+  $upscope $end
+  $scope module adder $end
+   $var wire 16 # io_output_bits_x_0 $end
+   $var wire 1 * io_output_bits_last_r $end
+   $var wire 1 , clock $end
+   $var wire 1 3 io_input_valid $end
+   $var wire 1 8 io_output_valid $end
+   $var wire 16 ; io_input_bits_x_1 $end
+   $var wire 16 = r_0 $end
+   $var wire 1 D io_output_valid_r $end
+   $var wire 1 E reset $end
+   $var wire 1 M io_input_ready $end
+   $var wire 16 P sum_0 $end
+   $var wire 1 U io_output_ready $end
+   $var wire 1 ^ io_output_bits_last $end
+   $var wire 16 _ io_input_bits_x_0 $end
+   $var wire 1 f io_input_bits_last $end
+  $upscope $end
+  $scope module multiply $end
+   $var wire 1 ! io_out_valid $end
+   $var wire 1 " last $end
+   $var wire 3 $ out0IncMux $end
+   $var wire 8 % in0 $end
+   $var wire 1 ' io_in_valid $end
+   $var wire 16 ( out0 $end
+   $var wire 16 ) out0Inc $end
+   $var wire 16 + out0Nxt $end
+   $var wire 1 0 clock $end
+   $var wire 8 : io_in_bits_x_1 $end
+   $var wire 1 < io_in_ready $end
+   $var wire 8 B in1Inc $end
+   $var wire 1 I io_in_bits_last $end
+   $var wire 16 J io_out_bits_x_0 $end
+   $var wire 1 S io_stall $end
+   $var wire 1 X regen $end
+   $var wire 1 Y io_out_bits_last $end
+   $var wire 8 b io_in_bits_x_0 $end
+   $var wire 8 c in1 $end
+   $var wire 8 i in0Nxt $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0X
+0C
+b0000000000000000 H
+b0000000000000000 +
+b00000000 b
+0&
+b0000000000000000 _
+0Z
+0R
+b0000000000000000 a
+07
+0"
+0V
+0N
+b0000000000000000 )
+0e
+03
+b0000000000000000 #
+0g
+0-
+b000 $
+0L
+b0000000000000000 4
+0/
+0D
+1<
+0F
+0[
+b0000000000000000 j
+0]
+0@
+b0000000000000000 G
+0W
+b00000000 i
+0Y
+b00000000 c
+0'
+0S
+0>
+06
+0!
+0U
+0M
+b0000000000000000 =
+b0000000000000000 (
+08
+b00000000 B
+b00000000 %
+0d
+b0000000000000000 T
+b0000000000000000 ?
+0O
+02
+0f
+0I
+b0000000000000000 9
+0h
+0`
+0K
+b0000000000000000 P
+b0000000000000000 ;
+b0000000000000000 J
+0E
+00
+b0000000000000000 5
+b00000000 :
+0\
+0*
+b00000000 Q
+0^
+0A
+0,
+b0000000000000000 1
+b00000000 .
+$end
+#0
+1!
+1N
+1X
+1d
+1h
+1]
+1Z
+1E
+1O
+1M
+#1
+10
+1L
+1,
+#6
+00
+0h
+0E
+0L
+0,
+#11
+10
+1L
+1,
+#16
+00
+0L
+0,
+#21
+10
+1L
+1,
+#26
+00
+0L
+0,
+#31
+10
+1L
+1,
+#36
+00
+0L
+0,
+#41
+10
+1L
+1,
+#46
+00
+0L
+0,
+#51
+10
+1L
+1,
+#56
+00
+0L
+0,
+#61
+10
+1L
+1,
+#66
+00
+0L
+0,
+#71
+10
+1L
+1,
+#76
+00
+0L
+0,
+#81
+10
+1L
+1,
+#86
+00
+0L
+0,
+#91
+10
+1L
+1,
+#96
+00
+0L
+0,
+#101
+10
+1L
+1,
+#106
+13
+b10110000 Q
+1g
+1R
+b11000000 i
+b0000110100000000 a
+0L
+b0000110100000000 j
+1/
+b10110000 b
+00
+b0000110100000000 G
+b1111111110100000 +
+1I
+0,
+b01100000 B
+1C
+b01100000 .
+1'
+1[
+1>
+b1111111110100000 )
+1\
+b0000110100000000 ?
+1U
+1@
+b0000110100000000 9
+b101 $
+1W
+b01100000 :
+b0000110100000000 P
+b0000110100000000 ;
+#111
+1f
+1`
+b11000000 %
+b0000110100000000 4
+b1111111110100000 J
+b1111111110100000 5
+1D
+1Y
+1&
+1K
+16
+b0000110100000000 =
+1L
+b1111111110100000 (
+10
+b1111111110100000 T
+b01100000 c
+1"
+b1111111110100000 1
+18
+b0000110100000000 #
+b1111111110100000 H
+1,
+b1111111110100000 _
+b0000110010100000 P
+#116
+00
+0'
+b110 $
+b00000000 i
+b1111111000100000 +
+0L
+0/
+0,
+#121
+b00000000 %
+b0000110010100000 4
+b1111111000100000 J
+b1111111000100000 5
+b0000110010100000 =
+1L
+b1111111000100000 (
+b0000000000000000 )
+10
+b1111111000100000 T
+1F
+b1111111000100000 1
+b0000110010100000 #
+1*
+b1111111000100000 H
+b000 $
+b1111100010000000 +
+1^
+1,
+b1111111000100000 _
+b0000101100100000 P
+#126
+00
+0L
+0,
+#131
+b0000101100100000 4
+b1111100010000000 J
+b1111100010000000 5
+b0000101100100000 =
+1L
+b1111100010000000 (
+10
+b1111100010000000 T
+b1111100010000000 1
+b0000101100100000 #
+b1111100010000000 H
+b1110001000000000 +
+1,
+b1111100010000000 _
+b0000010110000000 P
+#136
+00
+0L
+0,
+#141
+b0000010110000000 4
+b1110001000000000 J
+b1110001000000000 5
+b0000010110000000 =
+1L
+b1110001000000000 (
+10
+b1110001000000000 T
+b1110001000000000 1
+b0000010110000000 #
+b1110001000000000 H
+b1000100000000000 +
+1,
+b1110001000000000 _
+b1110111100000000 P
+#146
+00
+0L
+0,
+#151
+b1110111100000000 4
+b1000100000000000 J
+b1000100000000000 5
+b1110111100000000 =
+1L
+b1000100000000000 (
+10
+b1000100000000000 T
+b1000100000000000 1
+b1110111100000000 #
+b1000100000000000 H
+b0010000000000000 +
+1,
+b1000100000000000 _
+b1001010100000000 P
+#156
+00
+b00000000 Q
+0C
+b00000000 .
+0g
+0L
+0[
+b0000000000000000 j
+0,
+0\

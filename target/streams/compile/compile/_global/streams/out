@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/adnepukan/parallel.les/homework2/systolic/src/main/scala/pecross.scala:19:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Arbiter1ton[VecFixed][0m
+[0m[[0m[31merror[0m] [0m[0m required: Arbiternto1[VecFixed][0m
+[0m[[0m[31merror[0m] [0m[0m    override lazy val actOutMux = Module(new Arbiter1ton(2, multiply.io.input.bits.cloneType))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

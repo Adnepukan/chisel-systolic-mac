@@ -1,0 +1,236 @@
+$date
+2024-01-13T12:26+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Multiply $end
+ $var wire 8 " in0 $end
+ $var wire 1 # io_output_bits_last $end
+ $var wire 8 $ io_input_bits_x_0 $end
+ $var wire 8 * in1Inc $end
+ $var wire 16 , out0 $end
+ $var wire 1 . io_output_valid $end
+ $var wire 1 / io_input_valid $end
+ $var wire 16 0 out0Inc $end
+ $var wire 16 1 out0Nxt $end
+ $var wire 1 2 clock $end
+ $var wire 8 5 io_input_bits_x_1 $end
+ $var wire 8 7 in1 $end
+ $var wire 8 8 in0Nxt $end
+ $var wire 3 : out0IncMux $end
+ $var wire 1 ; io_input_bits_last $end
+ $var wire 1 = reset $end
+ $var wire 1 > counterHsk $end
+ $var wire 1 ? io_output_ready $end
+ $var wire 1 @ io_input_ready $end
+ $var wire 16 A io_output_bits_x_0 $end
+  $scope module counterHsk $end
+   $var wire 3 ! counter $end
+   $var wire 1 % io_regen $end
+   $var wire 1 & io_validNxt $end
+   $var wire 1 ' io_lastNxt $end
+   $var wire 1 ( reset $end
+   $var wire 3 ) counterNxt $end
+   $var wire 1 + io_readyPre $end
+   $var wire 1 - counterEn $end
+   $var wire 1 3 clock $end
+   $var wire 1 4 io_lastPre $end
+   $var wire 1 6 io_validPre $end
+   $var wire 1 9 io_lastNxt_r $end
+   $var wire 1 < io_readyNxt $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+0;
+0&
+b0000000000000000 A
+0<
+b0000000000000000 ,
+0'
+0=
+0>
+06
+b00000000 *
+0#
+09
+02
+b000 )
+03
+b000 !
+04
+0-
+b00000000 7
+0.
+b00000000 "
+b000 :
+b00000000 8
+0/
+b00000000 $
+0(
+0?
+b0000000000000000 0
+0+
+0@
+b00000000 5
+b0000000000000000 1
+$end
+#0
+1@
+1=
+1(
+1+
+b001 )
+#1
+13
+12
+#6
+03
+02
+0=
+0(
+#11
+13
+12
+#16
+03
+02
+#21
+13
+12
+#26
+03
+02
+#31
+13
+12
+#36
+03
+02
+#41
+13
+12
+#46
+03
+02
+#51
+13
+12
+#56
+03
+02
+#61
+13
+12
+#66
+03
+02
+#71
+13
+12
+#76
+03
+02
+#81
+13
+12
+#86
+03
+02
+#91
+13
+12
+#96
+03
+02
+#101
+13
+12
+#106
+03
+1-
+1<
+1%
+14
+b01100000 5
+16
+1/
+b1111111110100000 0
+1?
+b1111111110100000 1
+b11000000 8
+02
+b01100000 *
+b10110000 $
+b101 :
+1;
+#111
+13
+b001 !
+b11000000 "
+b1111111000100000 1
+0@
+b00000000 8
+12
+0+
+b110 :
+b01100000 7
+b1111111110100000 A
+b1111111110100000 ,
+b010 )
+#116
+03
+02
+06
+0/
+#121
+13
+b010 !
+b0000000000000000 0
+b00000000 "
+b1111100010000000 1
+12
+b000 :
+b1111111000100000 A
+b1111111000100000 ,
+b011 )
+#126
+03
+02
+#131
+13
+b011 !
+b1110001000000000 1
+12
+b1111100010000000 A
+b1111100010000000 ,
+b100 )
+#136
+03
+02
+#141
+13
+b100 !
+0%
+b1000100000000000 1
+1.
+1@
+1&
+12
+1+
+b1110001000000000 A
+b1110001000000000 ,
+b000 )
+#146
+03
+0?
+b00000000 5
+02
+b00000000 $
+0;
